@@ -1,0 +1,15 @@
+{
+  "name": "binbat-index",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "tailwind": "tailwindcss -i input.css -o output.css --watch",
+    "dev": "serve -p 8888",
+    "build": "npx tailwindcss -i input.css -o output.css --minify",
+    "preview": "serve -p 8888"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4",
+    "tailwindcss": "^3.4.15"
+  }
+}
